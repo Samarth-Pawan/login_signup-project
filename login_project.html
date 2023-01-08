@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link href ="login_project.js" rel = "javascript-code" >
+    <link href = "Login_project.css" rel = "stylesheet">
+    
+    
+    
+</head>
+
+<body data-theme="dark">
+    <header>
+        <nav class="title_bar">
+                <img src="./ECELL_logo.png" 
+                alt="CSA-logo" width = 230px height = 90px>
+
+
+                <button class = "buttons">Esummit</button>
+                <button class = "buttons">Community</button>
+                <button class = "buttons">Blog</button>
+                <button class = "buttons">About Us</button>
+                <button class = "buttons">Internship </button>
+                
+                
+        </nav>
+    </header>
+
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class = "form_title"> LOGIN </h1>
+
+            <div class="form_message form_message-error"></div>
+            
+            <div class = "form_input-group" >
+                <input  class = "form_input" type = "text" name = "Username" autofocus placeholder = "Type your username">
+                <div class="form_input-error-message"></div>
+            </div>
+
+            <div class = "form_input-group">
+                <input  class = "form_input" type = "password" name = "password" autofocus placeholder = "Enter Password">
+                <div class="form_input-error-message"></div>
+            </div> 
+
+            <button class = "form_button" type = "submit">Continue</button>
+            <p class="form_text">
+                <a href="#" class="form_link" >Forgot Password?</a>
+
+            </p>
+            <p class="form_text">
+                <a href="#" class="form_link" id = "linkCreateAccount">Dont have an account? Create one now!</a>
+
+            </p>
+        </form>
+
+
+        <form class="form form_hidden" id="createAccount">
+            <h1 class = "form_title"> Create Account </h1>
+
+            <div class="form_message form_message-error"></div>
+            
+            <div class = "form_input-group" >
+                <input  class = "form_input" id = "signupUsername" type = "text" name = "Username" autofocus placeholder = "Username">
+                <div class="form_input-error-message"></div>
+            </div>
+
+            <div class = "form_input-group">
+                <input  class = "form_input" type = "text" name = "Email_address" autofocus placeholder = "E-mail address">
+                <div class="form_input-error-message"></div>
+            </div>
+
+            <div class = "form_input-group">
+                <input  class = "form_input" type = "password" name = "password" autofocus placeholder = "Password">
+                <div class="form_input-error-message"></div>
+            </div> 
+
+            <div class = "form_input-group">
+                <input  class = "form_input" type = "password" name = "confirm_password" autofocus placeholder = "Confirm Password">
+                <div class="form_input-error-message"></div>
+            </div> 
+
+            <button class = "form_button" type = "submit">Proceed</button>
+
+            <p class="form_text">
+                <a href="#" class="form_link" id = "linkLogin">Already have an account? Sign in</a>
+
+            </p>
+
+        </form>
+    </div>
+
+    <button class = "toggle_button">SWITCH THEME</button>
+
+    <script src="/Users/samarthpawan/Desktop/login-signup project/login_project.js"></script>
+
+</body>
+</html>
